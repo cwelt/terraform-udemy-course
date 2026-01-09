@@ -8,7 +8,7 @@ terraform {
 }
 
 provider "aws" {
-  region = "eu-west-1"
+  region = "ap-south-1"
 }
 
 resource "aws_vpc" "demo_vpc" {
